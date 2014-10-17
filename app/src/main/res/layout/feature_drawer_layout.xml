@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/feature_drawer_item_icon"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY">
+    </ImageView>
+
+    <RelativeLayout
+        android:id="@+id/feature_drawer_text"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/feature_drawer_item_icon"
+        android:layout_centerVertical="true" >
+
+        <TextView
+            android:id="@+id/feature_drawer_item_title"
+            style="@style/ListItemTitle"
+            android:text="Option TITLE" />
+
+        <TextView
+            android:id="@+id/feature_drawer_item_caption"
+            android:layout_below="@+id/feature_drawer_item_title"
+            android:layout_alignLeft="@+id/feature_drawer_item_title"
+            style="@style/ListItemCaption"
+            android:text="Option DESCRIPTION" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

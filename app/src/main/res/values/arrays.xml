@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- FEATURE DRAWER -->
+    <string-array name="feature_drawer_items">
+        <item>@string/data_manager_title</item>
+        <item>@string/map_display_pref_title</item>
+        <item>@string/display_filter_title</item>
+        <item>@string/tag_controller_title</item>
+        <item>@string/app_settings_title</item>
+        <item>@string/about_dialog_item</item>
+    </string-array>
+
+    <string-array name="feature_drawer_captions">
+        <item>@string/data_manager_caption</item>
+        <item>@string/map_display_pref_caption</item>
+        <item>@string/display_filter_caption</item>
+        <item>@string/tag_controller_caption</item>
+        <item>@string/app_settings_caption</item>
+        <item>@string/about_dialog_caption</item>
+    </string-array>
+
+    <array name="feature_drawer_icons">
+        <item>@drawable/feature_drawer_data</item>
+        <item>@drawable/feature_drawer_display</item>
+        <item>@drawable/feature_drawer_filters</item>
+        <item>@drawable/feature_drawer_tag</item>
+        <item>@drawable/feature_drawer_ops</item>
+        <item>@drawable/feature_drawer_about</item>
+    </array>
+
+</resources>

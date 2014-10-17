@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DrawerList">
+        <item name="android:background">@color/trans_black</item>
+        <item name="android:cacheColorHint">@color/clear</item>
+        <item name="android:divider">@color/lt_gray</item>
+        <item name="android:dividerHeight">1dip</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="android:headerDividersEnabled">true</item>
+    </style>
+
+    <style name="ListItemTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dip</item>
+        <item name="android:layout_marginLeft">12dip</item>
+        <item name="android:textAppearance">@style/TitleText</item>
+    </style>
+
+    <style name="ListItemCaption">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">6dip</item>
+        <item name="android:textAppearance">@style/CaptionText</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">20dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="CaptionText">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/blue3</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+
+
+</resources>

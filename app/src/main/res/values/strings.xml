@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App & Main Activity -->
+    <string name="app_name">ELUSIV:Eve</string>
+    <string name="app_ver_name">ELUSIV:Eve v2.0</string>
+    <string name="app_about_name">Eve Mobile</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Key Feature Drawer Activities -->
+    <!-- These are used as titles for the activity screens opened from the Feature Drawer -->
+
+    <string name="data_manager_title">Data Manager</string>
+    <string name="data_manager_caption">"load, export &amp; import data"</string>
+
+    <string name="map_display_pref_title">Map Preferences</string>
+    <string name="map_display_pref_caption">"set up viewing preferences"</string>
+
+    <string name="display_filter_title">Display Filters</string>
+    <string name="display_filter_caption">"plot a subset of locations"</string>
+
+    <string name="tag_controller_title">Device Control</string>
+    <string name="tag_controller_caption">"configure device behavior"</string>
+
+    <string name="app_settings_title">Application Settings</string>
+    <string name="app_settings_caption">"adjust application settings"</string>
+
+    <string name="about_dialog_item">About</string>
+    <string name="about_dialog_caption">" "</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="legend_label">Legend</string>
+
+
+</resources>

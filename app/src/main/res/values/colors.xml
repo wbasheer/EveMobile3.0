@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="red">#FFFF0000</color>
+    <color name="lt_red">#FFFF9090</color>
+    <color name="dk_red">#FF900000</color>
+
+    <color name="green">#FF00FF00</color>
+    <color name="dk_green">#FF008000</color>
+    <color name="md_green">#FF508000</color> <!-- (255)80,128,0 -->
+    <color name="lt_green">#FF9FFF00</color> <!-- (255)159,255,0 -->
+
+    <color name="cream">#FFEEECE1 </color> <!-- (255)238,236,225 -->
+
+    <color name="blue">#FF0000FF</color>
+    <color name="blue1">#FF4B64FF</color>
+    <color name="blue2">#FF507090</color> <!-- (255)80,112,144 -->
+    <color name="trans_blue2">#33507090</color> <!-- (51)80,112,144 -->
+    <color name="blue3">#FF6496FF</color>
+    <color name="blue4">#FF6293FF</color>
+
+    <color name="yellow">#FFFFFF00</color>
+    <color name="magenta">#FFFF00FF</color>
+    <color name="cyan">#FF00FFFF</color>
+
+    <color name="black">#FF000000</color>
+    <color name="trans_black">#CC000000</color>
+    <color name="trans_black2">#BB000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="trans_white">#B0FFFFFF</color>
+
+    <color name="gray">#FF606060</color> <!-- (255)96,96,96 -->
+    <color name="lt_gray">#FF909090</color> <!-- (255)144,144,144 -->
+    <color name="ltr_gray">#FFC0C0C0</color> <!-- (255)192,192,192 -->
+    <color name="ltst_gray">#FFE0E0E0</color> <!-- (255)224,224,224 -->
+    <color name="dk_gray">#FF303030</color> <!-- (255)48,48,48 -->
+    <color name="trans_gray">#33808080</color>
+    <color name="trans_ltgray">#B0909090</color> <!-- (176)144,144,144 -->
+    <color name="trans_dkgray">#B0303030</color>
+    <color name="more_trans_dkgray">#40303030</color>
+    <color name="trans_dkstgray">#B0101010</color>
+
+    <color name="clear">#00000000</color>
+
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_black">#FF000000</color>
+    <color name="text_list_disabled">#80D0D0D0</color>
+
+    <color name="Red">#FF0000</color>
+    <color name="Blue">#0000FF</color>
+    <color name="Green">#008000</color>
+    <color name="Magenta">#FF00FF</color>
+    <color name="Maroon">#800000</color>
+    <color name="Transparent">#00000000</color>
+
+    <color name="lt_yellow">#FFFFFF80</color>
+
+    <color name="GREY_DISABLED">#505850</color>
+
+    <integer-array name="colorArray">
+        <item>0x0000FF</item>
+        <item>0x008000</item>
+    </integer-array>
+
+</resources>
