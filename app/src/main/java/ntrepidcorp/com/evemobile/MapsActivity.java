@@ -20,7 +20,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class MapsActivity extends FragmentActivity {
+public class MapsActivity extends FragmentActivity implements LegendFragment.OnFragmentInteractionListener {
 
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -29,6 +29,13 @@ public class MapsActivity extends FragmentActivity {
 
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
+
+    public static final int DATABASE_ITEM= 0;
+    public static final int MAPDISPLAY_ITEM= 1;
+    public static final int FILTERS_ITEM= 2;
+    public static final int TAGCONTROL_ITEM= 3;
+    public static final int TVISOP_ITEM= 4;
+    public static final int ABOUT_ITEM= 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -177,32 +184,32 @@ public class MapsActivity extends FragmentActivity {
 
                 case TAGCONTROL_ITEM:
 
-                    Intent tagCommandIntent = new Intent(MainMapActivity.this, TagCommandActivity.class);
-                    startActivityForResult(tagCommandIntent, TAGCOMMAND);
+                    //Intent tagCommandIntent = new Intent(MapsActivity.this, TagCommandActivity.class);
+                    //startActivityForResult(tagCommandIntent, TAGCOMMAND);
 
                     break;
 
                 case MAPDISPLAY_ITEM:
                     // Map display options
-                    Intent mapPreferencesIntent = new Intent(MainMapActivity.this, MapPreferencesActivity.class);
-                    startActivityForResult(mapPreferencesIntent, MAPPREFERENCES);
+                    //Intent mapPreferencesIntent = new Intent(MapsActivity.this, MapPreferencesActivity.class);
+                    //startActivityForResult(mapPreferencesIntent, MAPPREFERENCES);
                     break;
 
                 case TVISOP_ITEM:
                     // App Preferences
-                    Intent tvisPreferencesIntent = new Intent(MainMapActivity.this, OperationPreferences.class);
-                    startActivityForResult(tvisPreferencesIntent, TVISPREFERENCES);
+                    //Intent tvisPreferencesIntent = new Intent(MapsActivity.this, OperationPreferences.class);
+                    //startActivityForResult(tvisPreferencesIntent, TVISPREFERENCES);
                     break;
 
                 case DATABASE_ITEM:
                     // Manage Data dialog
-                    Intent manageDataIntent = new Intent(MainMapActivity.this, ManageDataActivity.class);
-                    startActivityForResult(manageDataIntent, MANAGEDATA);
+                    //Intent manageDataIntent = new Intent(MapsActivity.this, ManageDataActivity.class);
+                    //startActivityForResult(manageDataIntent, MANAGEDATA);
                     break;
 
                 case ABOUT_ITEM:
                     // About Dialog
-                    showDialog(DIALOG_ABOUT);
+                    //showDialog(DIALOG_ABOUT);
                     break;
 
                 default:
@@ -212,4 +219,9 @@ public class MapsActivity extends FragmentActivity {
         }
     };
 
+    @Override
+    public void onFragmentInteraction(String id) {
+
+
+    }
 }
